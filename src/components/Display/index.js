@@ -125,7 +125,6 @@ const Display = (props) => {
             borderWidth: 1,
 
             borderRadius: 7,
-
         },
 
         result: {

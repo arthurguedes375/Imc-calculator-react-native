@@ -50,12 +50,14 @@ const App = () => {
                         style={style.input}
                         placeholder="Digite o seu Peso..."
                         onChangeText={text => setPeso(text)}
+                        onBlur={calcImc}
                     />
                     <TextInput
                         label="Altura"
                         value={altura}
                         style={style.input}
                         placeholder="Digite a sua Altura..."
+                        onBlur={calcImc}
                         onChangeText={text => setAltura(text)}
                     />
                 </View>
